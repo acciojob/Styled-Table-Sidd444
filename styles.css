@@ -1,7 +1,6 @@
 /* your code */
 thead{
 	background-color:blue;
-	text-align:left;
 }
 th{
 	color:white;
@@ -13,4 +12,16 @@ th{
 }
 tr{
 	border-width:10px;
+}
+.rounded-table {
+  border-collapse: collapse; /* Optional, for table borders to be merged */
+  width: 100%; /* Optional, adjust as needed */
+  border-radius: 10px; /* Adjust the radius value as needed */
+  overflow: hidden; /* Optional, hides any content that goes beyond rounded corners */
+}
+
+.rounded-table th, .rounded-table td {
+  border: 1px solid #ccc; /* Optional, add border styling */
+  padding: 8px; /* Optional, adjust as needed */
+  text-align: left; /* Optional, align text within cells */
 }
