@@ -1,1 +1,16 @@
 /* your code */
+thead{
+	background-color:blue;
+	text-align:left;
+}
+th{
+	color:white;
+	width:200px
+	
+}
+#even{
+	background:silver;
+}
+tr{
+	border-width:10px;
+}
